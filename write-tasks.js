@@ -25,7 +25,7 @@ const Tasks = db.define('task', {
     }
 })
 async function task(){
-    await db.sync()
+    await db.sync() // creates tables for data
     await Tasks.create({ title: 'Some task to be done'})
 
 }
