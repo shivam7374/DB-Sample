@@ -25,6 +25,6 @@ const Tasks = db.define('task', {
     }
 })
 async function task(){
-    db.sync()
+    await db.sync()
 }
 task()
