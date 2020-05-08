@@ -39,7 +39,8 @@ async function task(){
         {title: 'This is task 5'},
         {title: 'This is task 6'},
     ])
-    const tasks = await Tasks.findAll();
+    const tasks = await Tasks.findAll();// here Tasks is a model of table in sql  or i is javascript representation of my table
+    // and task is like combination of entities like rows
     console.log('tasks found = ', tasks.length)
 
     tasks.forEach((t) => {
