@@ -24,4 +24,7 @@ const Tasks = db.define('task', {
         defaultValue: false
     }
 })
-db.authenticate()
+async function task(){
+    db.sync()
+}
+task()
