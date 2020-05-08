@@ -27,6 +27,15 @@ const Tasks = db.define('task', {
 async function task(){
     await db.sync() // creates tables for data
     await Tasks.create({ title: 'Some task to be done'})
+    await Tasks.bulkCreate([
+        {title: 'This is task 1'},
+        {title: 'This is task 2'},
+        {title: 'This is task 3'},
+        {title: 'This is task 4'},
+        {title: 'This is task 5'},
+        {title: 'This is task 6'},
+    ])
+
 
 }
 task()
