@@ -1,0 +1,23 @@
+{
+  "name": "db-sample",
+  "version": "1.0.0",
+  "description": "Sample DB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivam7374/DB-Sample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shivam7374/DB-Sample/issues"
+  },
+  "homepage": "https://github.com/shivam7374/DB-Sample#readme",
+  "dependencies": {
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.7"
+  }
+}
